@@ -13,5 +13,6 @@ Allows for developing projects on multiple python versions
 # Common CommandsInstall
 ### - Install the latest python version
     `pyenv install $(pyenv install --list | grep -v - | grep -v b | grep -v dev | tail -1)`
+    
     Installs only the latest stable version
     Excludes beta and dev versions

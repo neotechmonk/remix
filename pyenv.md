@@ -9,15 +9,15 @@ Allows for developing projects on multiple python versions
 
 # Setup 
 1. Install on MacOS - `brew install pyenv` 
-1. Install new python version - `pyenv install -v 3.7.2`
+1. Install new python version - `pyenv install -v 3.7.2`  
     exclude -v to suppress tail
-1. Check currently installed versions `pyenv versions`
+1. Check currently installed versions `pyenv versions`  
     Currently active version is prefixed with *
-1. Use a specific version globally `pyenv global 3.7.2`
-1. Use a specific versionally locally (e.g. specific project folder) `pyenv local 3.7.2`
-    adds `.python-version` in the local folder
+1. Use a specific version globally `pyenv global 3.7.2`  
+1. Use a specific versionally locally (e.g. specific project folder) `pyenv local 3.7.2`  
+    adds `.python-version` in the local folder  
 1. Verify the active version `python -V`
-1. Uninstall a version `pyenv uninstall -f 3.7.2`
+1. Uninstall a version `pyenv uninstall -f 3.7.2`  
     Avoid -f to allow system to prompt confirmation
 
 
